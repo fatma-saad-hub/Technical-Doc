@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balance Sheet</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header><img id="logo" class="responsive-img" src="https://nodejs.org/static/logos/nodejsLight.svg" alt="img"></header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Node_JS">Node JS</a></li>
+      <li><a class="nav-link" href="#How_to_install">How to Install</a></li>
+      <li><a class="nav-link" href="#How_to_use">How to use</a></li>
+      <li><a class="nav-link" href="#Usefull_Links">Usefull Links</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <h1 id="main-header">NODE JS</h1>
+    <section id="Introduction" class="main-section">
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <p>Node.js is an open-source and cross-platform <a href="https://v8.dev/" target="_blank">JavaScript</a> runtime environment. It is a popular tool for almost any kind of project!</p>
+    </section>
+    <section id="Node_JS" class="main-section">
+      <header>
+        <h2>Node JS</h2>
+      </header>
+      <p>A Node.js app runs in a single process, without creating a new thread for every request. Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking and generally, libraries in Node.js are written using non-blocking paradigms, making blocking behavior the exception rather than the norm.</p>
+      <p>When Node.js performs an I/O operation, like reading from the network, accessing a database or the filesystem, instead of blocking the thread and wasting CPU cycles waiting, Node.js will resume the operations when the response comes back.</p>
+    </section>
+    <section id="How_to_install" class="main-section">
+      <header>
+        <h2>How to install</h2>
+        <p>The packages on this page are maintained and supported by their respective packagers, not the Node.js core team. Please report any issues you encounter to the package maintainer. If it turns out your issue is a bug in Node.js itself, the maintainer will report the issue upstream.
+        <p>
+      </header>
+      <ul>
+        <li>
+
+          <h3>Arch Linux</h3>
+          <p>Node.js and npm packages are available in the Community Repository.</p>
+          <pre><code><span class="token">pacman</span> -S nodejs npm</pre></code>
+        </li>
+
+        <li>
+          <h3>Debian /Ubuntu Linux</h3>
+          <p><a href="https://github.com/nodesource/distributions" target="_blank">Node.js binary distributions</a> are available from NodeSource.</p>
+          <pre><code><span class="token">curl</span> curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh</code></pre>
+          <pre><code> <span class="token">apt-get</span> install -y nodejs</code></pre>
+        </li>
+
+        <li>
+          <h3> macOS</h3>
+          <p>Download the<a href="https://nodejs.org/en/#home-downloadhead" target="_blank"> macOS Installer</a> directly from the<a href="https://nodejs.org/en" target="_blank"> nodejs.org</a> web site.</p>
+        </li>
+
+        <li>
+          <h3>Windows</h3>
+          <p>
+
+            To install nvs on Windows go to the release page here and download the MSI installer file of the latest<a href="https://github.com/jasongin/nvs/releases" target="_blank"> release.</a>
+
+            You can also use chocolatey to install it:</p>
+        </li>
+
+        <li>
+          <h3>n(node version manager)</h3>
+          <p>Download using <a href="https://github.com/tj/n" target="_blank">tj/n</a>script</p>
+          <pre><code> <span class="token">curl</span> -fsSL https://raw.githubusercontent.com/tj/n/master/bin/n | </code></pre>
+          <pre><code> <span class="token">bash</span> -s install lts</code></pre>
+        </li>
+      </ul>
+
+    </section>
+    <section id="How_to_use" class="main-section">
+      <header>
+        <h2>How to use</h2>
+      </header>
+          <p>create an empty project, then navigate to it.</p>
+      <p> Linux, Mac , and Windows:</p>
+      <pre><code>$<span class="token">mkdir</span> myproject</code></pre>
+            <pre><code>$<span class="token">cd</span> myproject</code></pre>
+      <p>Next, create your source file and call it<strong>"hello world"</strong></p>
+      <p>Open your file with your favorite editor and add this line</p>
+                  <pre><code>console.log(<span class="token">"Hello World")</span> myproject</code></pre>
+      <p>Console Output Has to be like the following line:</p>
+      <pre><code>Hello World</code></pre>
+      <p></p>
+    </section>
+    <section id="Usefull_Links" class="main-section">
+      <header>
+        <h2>Usefull Links</h2>
+      </header>
+      <ol>
+        <li>Official Website: <a href="https://nodejs.org/en" target="_blank">https://nodejs.org/en</a></li>
+        <li>Official Documentation: <a href="https://nodejs.org/docs/" target="_blank">https://nodejs.org/docs/</a> </li>
+        <li>Usefull Resources: <a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank">https://github.com/sindresorhus/awesome-nodejs</a></li>
+      </ol>
+    </section>
+  </main>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
